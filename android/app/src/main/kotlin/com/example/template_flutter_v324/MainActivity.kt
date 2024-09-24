@@ -1,4 +1,4 @@
-package com.example.template_flutter_v324
+package reverse.domain.domainSuffix
 
 import io.flutter.embedding.android.FlutterActivity
 

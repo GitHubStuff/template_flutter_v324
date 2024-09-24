@@ -4,13 +4,18 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Changes to create unique app
 
-A few resources to get you started if this is your first Flutter project:
+- Find/Replace '**my.domain**' with your custome domain (eg: "*mydomain.com*")
+- Find/Replace '**reverse.domain**' with your reverse domain (eg: "*com.mydomain*")
+- Find/Replace '**domainSuffix**' with your domain's suffix for the apps (eg: "*com.mydomain.[domainSuffx]*")
+- Find/Replace '**AndroidAppName**' with android app name (eg: "*Android Pain*")
+- Find/Replace '**IOSAppName**' with the ios app name that's on screen (eg: "*My Awesome iOS App*")
+- Find/Replace '**LinuxName**' with the application file name for Linux (eg: "*MyLinuxFile*")
+- Find/Replace '**LinuxTitle**' with text for screen banners (eg: "*Welcome to the Linux App*")
+- Find/Replace '**MacAppName**' with name of the MacOS version of the app (eg: "*MyMacApp*"), use camel case
+- Find/Replace '**WindowsName**' with the application file name for Windows (eg: "*MyWidowsExcuse*")
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### At the project root
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- change ```template_flutter_v324.iml``` the match the project name (eg: ```my_flutter_proj.iml```), **using the folder name is ideal**.
