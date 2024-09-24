@@ -28,9 +28,9 @@ To replace with a custom image:
 - Replace ```demo1024x1024.png``` with your own (recommend size is 1024x1024 for max screen size coverage)
 - Search/Replace ```demo1024x1024.png``` with your imamge name
 
-The image ```ic4u1024x102.png``` is the template image used by the ```flutter_launcher_icons``` package that will create icons for use on all platforms. (see ```pubspec.yaml``` for how they are defined). To use your own custom images:
+The image ```ic4u1024x1024.png``` is the template image used by the ```flutter_launcher_icons``` package that will create icons for use on all platforms. (see ```pubspec.yaml``` for how they are defined). To use your own custom images:
 
-- Replace ```ic4u1024x102.png``` with your image (1024x1024 is optimal size).
+- Replace ```ic4u1024x1024.png``` with your image (1024x1024 is optimal size).
 
 When the icon generation runs in post-process (see next), the images will be generated an added to all the platform(s). Edits to ```pubspec.yaml``` to change limit/refine their creation and use.
 
