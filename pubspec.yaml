@@ -22,7 +22,7 @@ dev_dependencies:
 # dart run build_runner build -d
   build_runner: ^2.4.12 # provides a concrete way of generating files using Dart code
   flutter_gen_runner: ^5.7.0 # The Flutter code generator for your assets, fonts, colors
-  flutter_launcher_icons: ^0.13.1 # A command-line tool that simplifies updating Flutter app's launcher icon
+  flutter_launcher_icons: ^0.14.0 # A command-line tool that simplifies updating Flutter app's launcher icon
   flutter_test: # Testing library for flutter, built on top of package:test.
     sdk: flutter
   very_good_analysis: ^6.0.0
