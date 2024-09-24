@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_redundant_argument_values
+
 import 'package:flutter/material.dart';
 import 'package:icodeforyou_package/icodeforyou_package.dart';
 import 'package:template_flutter_v324/src/screens/screens.dart';
@@ -5,10 +7,13 @@ import 'package:template_flutter_v324/src/screens/screens.dart';
 void main() {
   runApp(
     ThemeApp(
+      debugShowCheckedModeBanner: true,
       fadeDuration: const Duration(milliseconds: 500),
       parentScreen: const ExampleHomeScreen(title: 'Example Home Page'),
       splashDuration: const Duration(milliseconds: 300),
       splashScreen: Image.asset('assets/images/demo1024x1024.png'),
+
+      blocProviders: const [],
 
       /// ThemeData? darkTheme,
       /// ThemeData? lightTheme,
@@ -22,6 +27,8 @@ void main() {
   );
 }
 
+/// Custom (compact) Date/Time Picker has their one color schemes.
+/// This is an example of how to create a custom color scheme for the DateTimePicker.
 class DateTimePickerThemeExtensionFactory {
   // Factory instance for Dark Theme
   static DateTimePickerThemeExtension dark() {
