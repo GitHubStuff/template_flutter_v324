@@ -15,11 +15,7 @@ A new Flutter project.
 - Find/Replace '**LinuxTitle**' with text for screen banners (eg: "*Welcome to the Linux App*")
 - Find/Replace '**MacAppName**' with name of the MacOS version of the app (eg: "*MyMacApp*"), use camel case
 - Find/Replace '**WindowsName**' with the application file name for Windows (eg: "*MyWidowsExcuse*")
-
-### At the project root
-
-- change ```template_flutter_v324.iml``` the match the project name (eg: ```my_flutter_proj.iml```), **using the folder name is ideal**.
-
+- Find/Replace '**template_flutter_v324**' with the project folder name (eg: "*my_proj_folder*")
 
 ### Optional (but recommended edits)
 
