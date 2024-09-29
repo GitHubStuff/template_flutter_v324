@@ -8,7 +8,7 @@
 PRODUCT_NAME = domainSuffix
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = reverse.domain.templateFlutterV324
+PRODUCT_BUNDLE_IDENTIFIER = reverse.domain.template_flutter_v324
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2024 reverse.domain. All rights reserved.
