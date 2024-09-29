@@ -38,15 +38,17 @@ When the icon generation runs in post-process (see next), the images will be gen
 
 From the IDE or terminal do the following: *Cut/Paste into terminal*
 
+#### SEE NOTES BELOW
+
 ```zsh
-dart run flutter_launcher_icons  #(see footnote))
+dart run flutter_launcher_icons
 flutter clean
 flutter pub get
 dart run build_runner build -d
 dart pub global activate flutter_gen
-fluttergen #(see footnote)
+fluttergen
 cd ios/
-pod install #(see footnote)
+pod install
 cd ..
 pwd
 ```
